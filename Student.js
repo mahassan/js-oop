@@ -7,6 +7,18 @@ class Student{
         return `${this.name} is ${this.age} years old`
     }
 }
-const member = new Student("Ammar", 37);
 
-console.log(member)
+class Person extends Student{
+    constructor(name, age, status){
+        super(name, age)
+        this.status = status
+    }
+    getDescription(){
+        let desc = super.getDescription();
+        return desc
+    }
+}
+
+//const member = new Student("Ammar", 37);
+const member2 = new Person("Hassan", 30, "Married");
+console.log(member2.getDescription())
