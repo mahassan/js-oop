@@ -1,3 +1,3 @@
 # js oop
 
-##This is repo fro building application in Object Orientated Javascript
+## This is repo for building application in Object Orientated Javascript. WIP 🚀
